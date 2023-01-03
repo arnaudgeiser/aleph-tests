@@ -6,5 +6,7 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [aleph "0.6.0"]
                  [manifold "0.3.0"]
+                 [com.clojure-goes-fast/clj-async-profiler "1.0.3"]
                  [org.clj-commons/byte-streams "0.3.1"]]
+  :jvm-opts ["-Djdk.attach.allowAttachSelf"]
   :repl-options {:init-ns aleph-tests.core})
